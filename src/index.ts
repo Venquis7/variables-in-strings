@@ -21,9 +21,11 @@ export default function MagicString(str: string, data?: object): string {
 					} else {
 						let value: string = currentObject;
 
-						if (value !== undefined) {
+						if (
+							value !== undefined &&
+							props.indexOf(prop) === props.length - 1
+						) {
 							str = str.replace(currentMatch, value);
-							console.log(currentMatch);
 						}
 
 						break;
