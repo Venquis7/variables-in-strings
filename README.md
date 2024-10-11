@@ -12,7 +12,7 @@ MagicString(string, object);
 ```
 
 ## How to use:
-To replace a portion of your string with the value of a variable, surround it with percent signs. Then pass in the second argument the object with the name of the variable you want to you want to replace.
+To replace a portion of your string with the value of a variable, surround it with percent signs. Then pass in the second argument the object with the name of the variable you want to replace.
 
 ```
 import MagicString from '.';
