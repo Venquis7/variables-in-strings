@@ -4,7 +4,9 @@ A simple package that allows you to use in-text variables in your strings.
 
 ### Installation:
 
-```npm i variables-inside-strings```
+```
+npm i variables-inside-strings
+```
 
 ### Syntax
 
