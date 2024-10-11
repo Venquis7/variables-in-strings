@@ -2,6 +2,10 @@
 
 A simple package that allows you to use in-text variables in your strings.
 
+### Installation:
+
+```npm i variables-inside-strings```
+
 ### Syntax
 
 The function takes two arguments: string (required) and an object containing the data to be used. The second argument is optional, allowing you to include the function in larger, single-source string solutions.
