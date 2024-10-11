@@ -9,9 +9,9 @@
 		"build": "tsup"
 	},
 	"keywords": [],
-	"author": "Venquis",
+	"author": "Tamas P",
 	"license": "MIT",
-	"description": "Replace variables wrapped in selected markers.",
+	"description": "Replace variables wrapped in markers.",
 	"devDependencies": {
 		"tsup": "^8.3.0",
 		"typescript": "^5.6.2"
