@@ -1,0 +1,19 @@
+{
+	"name": "variables-inside-strings",
+	"version": "1.0.0",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"test": "ts-node ./src/index.ts",
+		"build": "tsup"
+	},
+	"keywords": [],
+	"author": "Venquis",
+	"license": "MIT",
+	"description": "Replace variables wrapped in selected markers.",
+	"devDependencies": {
+		"tsup": "^8.3.0",
+		"typescript": "^5.6.2"
+	}
+}
